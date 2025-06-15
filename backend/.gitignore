@@ -1,0 +1,36 @@
+# Ignore build outputs
+target/
+build/
+
+# Ignore wrapper binaries
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.sts4-cache
+
+# Eclipse/STS/NetBeans/Gradle stuff (unnecessary for IntelliJ users)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore generated docs or temp files
+HELP.md
+
+# Keep these exceptions if you're doing custom builds/tests
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
